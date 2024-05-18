@@ -65,3 +65,7 @@ function changeCurrentWeaponWith(element) {
   currentWeapon.style.filter = "none";
   appInfo.style.filter = "none";
 }
+
+function openLinkInNewTab(url) {
+  window.open(url, '_blank');
+}
